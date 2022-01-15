@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.container-top {
+    background-color: #1f2937;
+}
+
+.container-quote {
+    background-color: #e5e7eb;
+}
