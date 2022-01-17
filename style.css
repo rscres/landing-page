@@ -11,15 +11,13 @@ body {
     flex-shrink: 0;
 }
 
-/*Header*/
-
 .header {
     background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #f9faf8;
-    padding: 0 180px;
+    padding: 0 200px;
 }
 
 .logo {
@@ -30,7 +28,6 @@ body {
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     padding: 0;
     gap: 24px;
     font-size: 18px;
@@ -42,16 +39,20 @@ ul {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 180px;
+    justify-content: space-between;
+    padding: 0 200px;
     height: 480px;
+    flex: 0 1 1450px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    justify-content: space-evenly;
     gap: 10px;
+    height: 250px;
+
 }
 
 .title {
@@ -75,14 +76,14 @@ ul {
     padding: 8px 36px;
     border-radius: 10px;
     border: 0;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 .main {
     background-color: grey;
     height: 250px;
-    width: 700px;
-    flex: 0;
+    width: 550px;
+    flex-shrink: 0;
 }
 
 /*Middle container*/
@@ -93,7 +94,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 0 200px;
+    padding: 0 300px;
 }
 
 .info-title {
@@ -107,13 +108,15 @@ ul {
 }
 
 .images {
+    flex: 1 1 auto;
     display: flex;
-    justify-content: space-between;
     gap: 60px;
 }
 
 .undertext {
     text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 .thumbnail {
@@ -134,13 +137,18 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 300px;
 }
 
 .quote {
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
     color: 1f2937;
+}
 
+.author {
+    justify-self: right;
 }
 
 /*Bottom container*/
