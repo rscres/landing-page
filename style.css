@@ -42,7 +42,6 @@ ul {
     justify-content: space-between;
     padding: 0 200px;
     height: 480px;
-    flex: 0 1 1450px;
 }
 
 .text {
@@ -135,7 +134,6 @@ ul {
     height: 430px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding: 0 300px;
 }
@@ -145,10 +143,14 @@ ul {
     font-weight: lighter;
     font-style: italic;
     color: 1f2937;
+    text-align: left;
+    padding-left: 25px;
 }
 
 .author {
-    justify-self: right;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
 
 /*Bottom container*/
