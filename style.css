@@ -9,6 +9,8 @@ body {
 
 .global-wrapper {
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -18,24 +20,40 @@ body {
     justify-content: space-between;
     color: #f9faf8;
     padding: 0 200px;
+    height: 100px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
+    height: 70px;
+}
+
+.logo-text {
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
     padding: 0;
     gap: 24px;
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 /*First container*/
 
-.container-top {
+.hero {
     background-color: #1f2937;
     display: flex;
     align-items: center;
@@ -155,7 +173,7 @@ ul {
 
 /*Bottom container*/
 
-.container-bot {
+.call-to-action {
     min-height: 350px;
     display: flex;
     justify-content: space-around;
@@ -170,6 +188,7 @@ ul {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 50px 100px;
 }
 
