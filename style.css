@@ -27,14 +27,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 1050px;
+    flex-basis: 1200px;
     flex-grow: 0;
+    padding: 0 20px;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    margin-right: 20px;
 }
 
 .logo {
@@ -67,14 +68,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 480px;
+    min-height: 480px;
 }
 
 .hero-box {
     display: flex;
-    gap: 40px;
     flex-grow: 0;
-    flex-basis: 1000px;
+    flex-basis: 1200px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
 }
 
 .text {
@@ -84,6 +87,7 @@ a {
     justify-content: space-evenly;
     gap: 10px;
     height: 250px;
+    margin-bottom: 20px;
 
 }
 
@@ -102,7 +106,7 @@ a {
 
 .sign-up {
     color: #e5e7eb;
-    background-color: #3882f6;
+    background-color: #ec9d00;
     font-size: 18px;
     font-weight: 700;
     padding: 8px 36px;
@@ -113,38 +117,41 @@ a {
 
 .main {
     background-color: grey;
-    height: 250px;
-    width: 550px;
+    max-height: 250px;
+    max-width: 550px;
     flex-shrink: 1;
 }
 
 /*Middle container*/
 
 .container-mid {
-    height: 500px;
+    min-height: 500px;
 }
 
 .info-box {
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: bolder;
-    padding-top: 60px;
+    text-align: center;
+    padding: 60px 10px;
 }
 
 .info {
-    width: 160px;
+    width: 170px;
+    margin: auto;
 }
 
 .images {
-    flex: 1 1 auto;
     display: flex;
-    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .undertext {
@@ -159,14 +166,14 @@ a {
     border: 4px;
     border-style: solid;
     border-radius: 15px;
-    border-color: #3882f6;
+    border-color: #ec9d00;
 }
 
 /*Quote container*/
 
 .container-quote {
-    background-color: #df8d03;
-    height: 430px;
+    background-color: #dbaa3f;
+    min-height: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,6 +182,7 @@ a {
 .box-quote {
     flex-grow: 0;
     flex-basis: 900px;
+    margin: 20px;
 }
 
 .quote {
@@ -183,7 +191,7 @@ a {
     font-style: italic;
     color: 1f2937;
     text-align: left;
-    padding-left: 25px;
+    padding: 0 25px;
 }
 
 .author {
@@ -203,13 +211,14 @@ a {
 
 .box-container {
     flex-grow: 0;
-    flex-basis: 1000px;
+    flex-basis: 1200px;
     display: flex;
+    margin: 20px;
 }
 
 .box {
     color: #f9faf8;
-    background-color: #3882f6;
+    background-color: #ec9d00;
     border-radius: 10px;
     flex: 1;
     display: flex;
